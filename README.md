@@ -24,7 +24,7 @@ These errors prevented me from properly testing the modify and summation functio
 I also found Vuetify somewhat cumbersome for a first-timer, and simply pushed out a quick index page without using any of the Vuetify components. The control in styling I have been used to using with plain HTML/CSS didn't seem readily accessible in Vuetify, and I expect that I'd need to spend some more time with it to relearn finer styling
 
 Two minor pieces of functionality which I could not manage to properly troubleshoot were Vuetify breadcrumbs, and using `:list='this.employeeIDs'` to autofill employee 
-primary keys for the `job.lead`Foreign key field. Both of these tasks seemed fairly simple and I couldn't gain much insight into what was going wrong.
+primary keys for the `job.lead` Foreign key field. Both of these tasks seemed fairly simple and I couldn't gain much insight into what was going wrong.
 
 ## What would you like to learn more about?
 
