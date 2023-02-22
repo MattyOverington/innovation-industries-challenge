@@ -16,7 +16,7 @@ in a way that clearly lays out code structure was also very nice to work with.
 
 I ran into an issue towards the end of my work when attempting to test the full functionality.
 
-   ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 23508 and this is thread id 22640
+    ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 23508 and this is thread id 22640
 
 These errors prevented me from properly testing the modify and summation functionalities, as this error seemed to prevent /job/job POST requests from adding a job to the 
 database. I was unable to determine if I had made some mistake in copying the routes and table definitions from Employee, or if some external factor was causing these errors
