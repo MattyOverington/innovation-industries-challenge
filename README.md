@@ -13,7 +13,9 @@ such as Handlebars, I find Vue's functionality to be more complete and obviously
 
 ## What did you find hard?
 
-I ran into an issue towards the end of my work when attempting to test the full functionality.
+I found that my inexperience with all parts of the stack made things quite slow and hampered my ability to troubleshoot a few key issues I ran into. 
+
+The largest issue being that when attempting to test the functionality I had added, the following error appeared during all `/job` GET and POST requests.
 
     ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 23508 and this is thread id 22640
 
