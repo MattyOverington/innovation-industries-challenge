@@ -17,9 +17,9 @@ I ran into an issue towards the end of my work when attempting to test the full 
 
     ProgrammingError: SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 23508 and this is thread id 22640
 
-These errors prevented me from properly testing the modify and summation functionalities, as this error seemed to prevent /job/job POST requests from adding a job to the database. I was unable to determine if I had made some mistake in copying the routes and table definitions from Employee, or if some external factor was causing these errors
+These errors prevented me from properly testing the modify and summation functionalities, as this error seemed to prevent `/job/job` POST requests from adding a job to the database. I was unable to determine if I had made some mistake in copying the routes and table definitions from the employee example, or if some external factor was causing these errors
 
-I also found Vuetify somewhat cumbersome for a first-timer, and simply pushed out a quick index page without using any of the Vuetify components. The control in stylingI have been used to using with plain HTML/CSS didn't seem readily accessible in Vuetify, and I expect that I'd need to spend some more time with it to relearn finer styling
+I also found Vuetify somewhat cumbersome for a first-timer, and simply pushed out a quick index page without using any of the Vuetify components. The control in styling I have been used to using with plain HTML/CSS didn't seem readily accessible in Vuetify, and I expect that I'd need to spend some more time with it to relearn finer styling
 
 Two minor pieces of functionality which I could not manage to properly troubleshoot were Vuetify breadcrumbs, and using `:list='this.employeeIDs'` to autofill employee 
 primary keys for the `job.lead`Foreign key field. Both of these tasks seemed fairly simple and I couldn't gain much insight into what was going wrong.
